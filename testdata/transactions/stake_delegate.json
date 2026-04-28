@@ -1,0 +1,90 @@
+{
+  "description": "DelegateStake + Initialize",
+  "category": "Stake",
+  "signature": "P82H6PnBEEgHiZ1vrPhQ1Uh9G4MiRdA4SMwsYcDNU8LBf9TcN4CLy2QX56EPXnM2Ae9Xozu6qnwaky98hjm69jQ",
+  "slot": 415601074,
+  "blockTime": 1777134397,
+  "explorerURL": "https://solscan.io/tx/P82H6PnBEEgHiZ1vrPhQ1Uh9G4MiRdA4SMwsYcDNU8LBf9TcN4CLy2QX56EPXnM2Ae9Xozu6qnwaky98hjm69jQ",
+  "expected": {
+    "trade": false,
+    "liquidity": false,
+    "meme": false,
+    "selfTransfer": false,
+    "stake": [
+      "Initialize",
+      "DelegateStake"
+    ]
+  },
+  "raw": {
+    "slot": 415601074,
+    "blockTime": 1777134397,
+    "transaction": [
+      "ARMTjQVhbYxkCTYhRo8wIn+Te7QWv8k6zWHSry1lCSJYg7fMRq0Z/xaoOyaVkLcBCXhF9D3ST2veyymdqKmr8AMBAAgKADpQ02WFo8Y0I8bGjaPf18gsRV1V+3gFMdYJvzhU3S91i5Gr+ho2zw+EtTA2J+D2loVHeXfLNyGrvVgkCeVqhwMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGodgXkTdUKpg0N73+KnqyVX9TXIp4citopJ3AAAAAAAan1RcZLFxRIYzJTD1K8X9Y2u4Im6H9ROPb2YoAAAAABnxbwDclrmRHiqqdvXTsME+8kwLe4eexosjxowd6oGEGp9UXGMd0yShWY5hpHV62i164o5tLbVxzVVshAAAAAAan1RcZNYTQ/u2bs0MdEyBr5UQoG1e4VmzFN1/0AAAABqHYF6UCBQtoB5Hmzm24jh5bcVD2H8Z5Ck600QAAAABione1FnmaZfHb1wJk2TmT0fZ4j2kkBC/j3Y7v/nRrlwUCAAkDIKEHAAAAAAACAAUCOo4AAAMCAAFjAwAAAAA6UNNlhaPGNCPGxo2j39fILEVdVft4BTHWCb84VN0vBwAAAAAAAABzdGFrZTo3AGy7AAAAAADIAAAAAAAAAAah2BeRN1QqmDQ3vf4qerJVf1NcinhyK2ikncAAAAAABAIBBXQAAAAAADpQ02WFo8Y0I8bGjaPf18gsRV1V+3gFMdYJvzhU3S8AOlDTZYWjxjQjxsaNo9/XyCxFXVX7eAUx1gm/OFTdLwAAAAAAAAAAAAAAAAAAAAAAOlDTZYWjxjQjxsaNo9/XyCxFXVX7eAUx1gm/OFTdLwQGAQYHCAkABAIAAAA=",
+      "base64"
+    ],
+    "meta": {
+      "err": null,
+      "fee": 23205,
+      "preBalances": [
+        89709950,
+        0,
+        1,
+        1,
+        1141440,
+        1009200,
+        289714755,
+        1169280,
+        114979200,
+        960480
+      ],
+      "postBalances": [
+        77403865,
+        12282880,
+        1,
+        1,
+        1141440,
+        1009200,
+        289714755,
+        1169280,
+        114979200,
+        960480
+      ],
+      "innerInstructions": [],
+      "preTokenBalances": [],
+      "postTokenBalances": [],
+      "logMessages": [
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program 11111111111111111111111111111111 invoke [1]",
+        "Program 11111111111111111111111111111111 success",
+        "Program Stake11111111111111111111111111111111111111 invoke [1]",
+        "Program log: Instruction: Initialize",
+        "Program Stake11111111111111111111111111111111111111 consumed 7537 of 35960 compute units",
+        "Program Stake11111111111111111111111111111111111111 success",
+        "Program Stake11111111111111111111111111111111111111 invoke [1]",
+        "Program log: Instruction: DelegateStake",
+        "Program Stake11111111111111111111111111111111111111 consumed 16229 of 28423 compute units",
+        "Program Stake11111111111111111111111111111111111111 success"
+      ],
+      "status": {
+        "Ok": null
+      },
+      "rewards": [],
+      "loadedAddresses": {
+        "readonly": [],
+        "writable": []
+      },
+      "returnData": {
+        "programId": "11111111111111111111111111111111",
+        "data": [
+          "",
+          ""
+        ]
+      },
+      "computeUnitsConsumed": 24216
+    },
+    "version": "legacy"
+  }
+}

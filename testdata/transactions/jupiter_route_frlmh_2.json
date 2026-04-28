@@ -1,0 +1,293 @@
+{
+  "description": "Jupiter V6 routing with FrLmh program",
+  "category": "Working",
+  "signature": "3YhB4fpSbDdprgK5JdzDSNQWB8dw99a4iP6fe7RvgBAdgrWTqLZuavogEvs26zxsDXUBYys5wuB1jTyP14TFb7m3",
+  "slot": 415000125,
+  "explorerURL": "https://solscan.io/tx/3YhB4fpSbDdprgK5JdzDSNQWB8dw99a4iP6fe7RvgBAdgrWTqLZuavogEvs26zxsDXUBYys5wuB1jTyP14TFb7m3",
+  "expected": {
+    "trade": true,
+    "liquidity": false,
+    "meme": false,
+    "selfTransfer": false,
+    "stake": null
+  },
+  "raw": {
+    "slot": 415000125,
+    "blockTime": null,
+    "transaction": [
+      "AX9dUfuCZf25u0dDR0/2iUhCCTnn62YA2nzwoCvxCpzW6+DjjSSkY7JkmAZuxSYCbMk4/xaTtB2tkgIGsL/U7AKAAQAJDeN22DlR8PnejHSDCILe+6pkfoxoWEBayPamlOLncH1ra3EKXIibMGg5Z6cQeefF5sU3j8VA6ZIzYDRaa3w1Og3b80nsisyLcA20/X80cl7N1yL8S8KmY4Dm+0HLaaz/5wittnjJGWEJadfGdIescM25l59NvSvKhj5C0LjHDwkMAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAAEedVb8jHAbu50xW7OaBUH/bGy3qP0jlECsc2iVrwTj7Q/+if11/ZKdMCbHylYed5LCas238ndUUsyGqezjOXoBS7XHji0Y8oWKlgJF73nGuvgWDE6XcuuhpIFy+qp+60lAHnj+x3/hWKPVqGm7Kcj8XBpVoGJnSktKW0KMYaPY/zRPaBBVZATz0rroahO1wI61P8hqEdH/zsFqzD6ggfDCvHDQyGIyjpjUTWhOhiVGs69KeasLa5n/9sG10AAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANynbms1yO1ekQLArR8XNt6A/IAqpGvXdC3kOW2IxgrionBBMCU0KzjpgFmdc37E1yoiQIm2xfui7yqapj93mjUGBAAFBAAAgAIFGhAAAQIFEQUGBRIADQ4PAQITEBAUBxEICQUKLOUXy5d6460qAQAAAHYHJHXdgKLS8gFkAAGA+3eYAAAAAPdCXhwAAAAAAAAACwIAAwwCAAAAjaYSAAAAAAAMAgETGLxlvBgAAAAAAAAAAAAAAAAAAAAA/////wQACQPo3wIAAAAAAAQABQL//wAAARdNzLSnpR3n/qjVhVrg5loIfYEHOn3BUvMNo/jQPHutA+vo6QUO2+fq7Q==",
+      "base64"
+    ],
+    "meta": {
+      "err": {
+        "InstructionError": [
+          1,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "fee": 17347,
+      "preBalances": [
+        29939589785,
+        2039280,
+        2387284,
+        2683295400,
+        1,
+        6189956907,
+        6711052,
+        2951789570,
+        0,
+        12480451053,
+        0,
+        1,
+        1313440,
+        12917785,
+        2039284,
+        2039283,
+        5598644874,
+        496861418030,
+        102449614,
+        1169280,
+        0
+      ],
+      "postBalances": [
+        29939572438,
+        2039280,
+        2387284,
+        2683295400,
+        1,
+        6189956907,
+        6711052,
+        2951789570,
+        0,
+        12480451053,
+        0,
+        1,
+        1313440,
+        12917785,
+        2039284,
+        2039283,
+        5598644874,
+        496861418030,
+        102449614,
+        1169280,
+        0
+      ],
+      "innerInstructions": [
+        {
+          "index": 1,
+          "instructions": [
+            {
+              "programIdIndex": 18,
+              "accounts": [
+                0,
+                13,
+                14,
+                15,
+                1,
+                2,
+                19,
+                16,
+                16,
+                20,
+                7,
+                17,
+                8,
+                9
+              ],
+              "data": "Rtcd2H2TrB77nPrZdMdTvfoHBoj4Xnvurk",
+              "stackHeight": 2
+            },
+            {
+              "programIdIndex": 16,
+              "accounts": [
+                15,
+                2,
+                13
+              ],
+              "data": "3hPNo7q3V2NT",
+              "stackHeight": 3
+            },
+            {
+              "programIdIndex": 16,
+              "accounts": [
+                1,
+                14,
+                0
+              ],
+              "data": "3b2rQdsRKYjH",
+              "stackHeight": 3
+            },
+            {
+              "programIdIndex": 5,
+              "accounts": [
+                6
+              ],
+              "data": "QMqFu4fYGGeUEysFnenhAvZyPm1JAod68DeKDsNFkksrnYHJ8XaBvc9KfAkZJppLvdT2cPno7zEZgPsbVKSQbb2ouhJks3jq5jpAXfpVRJKD1h2Kekha4SNXwUXKwkZFC2u26kbShXEdHB5df5jnirG1KgKQaTrDyCD83xCmLt6jYcw",
+              "stackHeight": 2
+            }
+          ]
+        }
+      ],
+      "preTokenBalances": [
+        {
+          "accountIndex": 1,
+          "owner": "GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+          "uiTokenAmount": {
+            "amount": "52919613971",
+            "decimals": 6,
+            "uiAmount": 52919.613971,
+            "uiAmountString": "52919.613971"
+          }
+        },
+        {
+          "accountIndex": 2,
+          "owner": "GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "uiTokenAmount": {
+            "amount": "945486272396",
+            "decimals": 6,
+            "uiAmount": 945486.272396,
+            "uiAmountString": "945486.272396"
+          }
+        },
+        {
+          "accountIndex": 14,
+          "owner": "GAcKqojqgkRVDBihVAGvbqnuZdCiN9UGNrPCRG5DMGGA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+          "uiTokenAmount": {
+            "amount": "46173136699",
+            "decimals": 6,
+            "uiAmount": 46173.136699,
+            "uiAmountString": "46173.136699"
+          }
+        },
+        {
+          "accountIndex": 15,
+          "owner": "GAcKqojqgkRVDBihVAGvbqnuZdCiN9UGNrPCRG5DMGGA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "uiTokenAmount": {
+            "amount": "60593599639",
+            "decimals": 6,
+            "uiAmount": 60593.599639,
+            "uiAmountString": "60593.599639"
+          }
+        }
+      ],
+      "postTokenBalances": [
+        {
+          "accountIndex": 1,
+          "owner": "GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+          "uiTokenAmount": {
+            "amount": "52919613971",
+            "decimals": 6,
+            "uiAmount": 52919.613971,
+            "uiAmountString": "52919.613971"
+          }
+        },
+        {
+          "accountIndex": 2,
+          "owner": "GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "uiTokenAmount": {
+            "amount": "945486272396",
+            "decimals": 6,
+            "uiAmount": 945486.272396,
+            "uiAmountString": "945486.272396"
+          }
+        },
+        {
+          "accountIndex": 14,
+          "owner": "GAcKqojqgkRVDBihVAGvbqnuZdCiN9UGNrPCRG5DMGGA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+          "uiTokenAmount": {
+            "amount": "46173136699",
+            "decimals": 6,
+            "uiAmount": 46173.136699,
+            "uiAmountString": "46173.136699"
+          }
+        },
+        {
+          "accountIndex": 15,
+          "owner": "GAcKqojqgkRVDBihVAGvbqnuZdCiN9UGNrPCRG5DMGGA",
+          "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "uiTokenAmount": {
+            "amount": "60593599639",
+            "decimals": 6,
+            "uiAmount": 60593.599639,
+            "uiAmountString": "60593.599639"
+          }
+        }
+      ],
+      "logMessages": [
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
+        "Program log: Instruction: Route",
+        "Program 9H6tua7jkLhdm3w8BvgpTn5LZNU7g4ZynDmCiNN3q6Rp invoke [2]",
+        "Program log: \ud83d\udc20",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+        "Program log: Instruction: Transfer",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 29155 compute units",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+        "Program log: Instruction: Transfer",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 23375 compute units",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+        "Program data: aIYNXt2nszEGhFdvD4mwRe2OWw/WFxInflZChWgnNIRupah5lAeXsDNGO/Z6qJoxBf8kg1WnJ9ANgj4dVWuuREUKp5Q6jO/Vv5UvDS6eN94wSzulVKGgC/xW3GTCeByOgt4OebjjJSWQ2oBuluqg9W4Qg1a4Co9BAmLfrGn+vkIQwLkm6JUNVkN7vUR2RfKpmfDHZ55XXO+Y8MZnn1dZ79UNAcZmraUQYQ8/mGaooBCd8MNnmldc75zwwmebV13vqNfvp55XUu8FBGR8m1dT7xELuP+WV1DvNgj6e5dXUe8NyC2dgwdQ737zyGeRV1fvyOHLZ5JXVO+U8cpnk1dV7w==",
+        "Program 9H6tua7jkLhdm3w8BvgpTn5LZNU7g4ZynDmCiNN3q6Rp consumed 42475 of 60371 compute units",
+        "Program 9H6tua7jkLhdm3w8BvgpTn5LZNU7g4ZynDmCiNN3q6Rp success",
+        "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+        "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 139 of 16335 compute units",
+        "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+        "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 49909 of 65385 compute units",
+        "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 failed: custom program error: 0x1771"
+      ],
+      "status": {
+        "Err": {
+          "InstructionError": [
+            1,
+            {
+              "Custom": 6001
+            }
+          ]
+        }
+      },
+      "rewards": [],
+      "loadedAddresses": {
+        "readonly": [
+          "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "9H6tua7jkLhdm3w8BvgpTn5LZNU7g4ZynDmCiNN3q6Rp",
+          "SysvarC1ock11111111111111111111111111111111",
+          "Sysvar1nstructions1111111111111111111111111"
+        ],
+        "writable": [
+          "GAcKqojqgkRVDBihVAGvbqnuZdCiN9UGNrPCRG5DMGGA",
+          "5g9P9hb7HRnkp5LLoGEraxWV6DVRJ3tLxTpnbTTthaBK",
+          "7ZyaWi7WQCCfEnAZ1z3PQuUq9zYkSyEuBYoYD8fzfkot"
+        ]
+      },
+      "returnData": {
+        "programId": "11111111111111111111111111111111",
+        "data": [
+          "",
+          ""
+        ]
+      },
+      "computeUnitsConsumed": 50059
+    },
+    "version": 0
+  }
+}

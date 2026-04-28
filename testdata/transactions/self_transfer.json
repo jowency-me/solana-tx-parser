@@ -1,0 +1,63 @@
+{
+  "description": "Self-transfer",
+  "category": "SelfTransfer",
+  "signature": "cTyWoQFzDUbLQG1HczcX9Rox95FxVd1BSrby4CdfQ2ABn1Rs1EBcHeuAbnbwieNDp2QMRPKMQvZ1ET6gegJmqn2",
+  "slot": 415577732,
+  "blockTime": 1777125161,
+  "explorerURL": "https://solscan.io/tx/cTyWoQFzDUbLQG1HczcX9Rox95FxVd1BSrby4CdfQ2ABn1Rs1EBcHeuAbnbwieNDp2QMRPKMQvZ1ET6gegJmqn2",
+  "expected": {
+    "trade": false,
+    "liquidity": false,
+    "meme": false,
+    "selfTransfer": true,
+    "stake": []
+  },
+  "raw": {
+    "slot": 415577732,
+    "blockTime": 1777125161,
+    "transaction": [
+      "AR6Vb6Wfr1ZBIXwipqp1ZOIKD5K/sqjwFc+ataO4TsMB62poEUzal8wPX5Ej88zIb2oIZMkWx5x+skkPAHkwZwMBAAIDAfKOvUqf0Km73zokz+3mHSVcKuwBWYNDnEbBBii1oOYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAAyKO60QA7A7JHi3Tdu7hRz3Ya/q1ffjaK+/wAwHriqVgCAgAJAwAAAAAAAAAAAQIAAAwCAAAAl3phAQAAAAA=",
+      "base64"
+    ],
+    "meta": {
+      "err": null,
+      "fee": 5000,
+      "preBalances": [
+        23170591,
+        1,
+        1
+      ],
+      "postBalances": [
+        23165591,
+        1,
+        1
+      ],
+      "innerInstructions": [],
+      "preTokenBalances": [],
+      "postTokenBalances": [],
+      "logMessages": [
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program 11111111111111111111111111111111 invoke [1]",
+        "Program 11111111111111111111111111111111 success"
+      ],
+      "status": {
+        "Ok": null
+      },
+      "rewards": [],
+      "loadedAddresses": {
+        "readonly": [],
+        "writable": []
+      },
+      "returnData": {
+        "programId": "11111111111111111111111111111111",
+        "data": [
+          "",
+          ""
+        ]
+      },
+      "computeUnitsConsumed": 300
+    },
+    "version": "legacy"
+  }
+}

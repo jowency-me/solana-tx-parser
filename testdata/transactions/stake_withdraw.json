@@ -1,0 +1,75 @@
+{
+  "description": "Withdraw",
+  "category": "Stake",
+  "signature": "hbFEQXbvsLq7CBXi7XJhGw8CMgAeLMgVX6XNdtBcPvtpKNH9TajHfn6vLvviRAhc9bRN3rzq7oB68vmg2GNpngW",
+  "slot": 415601069,
+  "blockTime": 1777134395,
+  "explorerURL": "https://solscan.io/tx/hbFEQXbvsLq7CBXi7XJhGw8CMgAeLMgVX6XNdtBcPvtpKNH9TajHfn6vLvviRAhc9bRN3rzq7oB68vmg2GNpngW",
+  "expected": {
+    "trade": false,
+    "liquidity": false,
+    "meme": false,
+    "selfTransfer": false,
+    "stake": [
+      "Withdraw"
+    ]
+  },
+  "raw": {
+    "slot": 415601069,
+    "blockTime": 1777134395,
+    "transaction": [
+      "ASMA71ynDimiva2+bIz6YfuxJt06JPittc+6eXpa00r18z8XXNRojBgDDJuJ/KlVsYAEYj1huRK9SABOCVBszg8BAAQG0I3KU95g+cG+sjc9npag6y+MXgR8nGyMdh/kZ+EVrojJ3uTL3GXZlRTDicKrMQkFkfnozhQcvRtxog1c/5h1cQMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAABqHYF5E3VCqYNDe9/ip6slV/U1yKeHIraKSdwAAAAAAGp9UXGMd0yShWY5hpHV62i164o5tLbVxzVVshAAAAAAan1RcZNYTQ/u2bs0MdEyBr5UQoG1e4VmzFN1/0AAAA9Pzf60T1t5hevsgOF2ueOa0LgizhwoI+vLH1xbnoPjADAgAJAyChBwAAAAAAAgAFAo4wAAADBQEABAUADAQAAACA1SIAAAAAAA==",
+      "base64"
+    ],
+    "meta": {
+      "err": null,
+      "fee": 11215,
+      "preBalances": [
+        481801218,
+        2282880,
+        1,
+        1141440,
+        1169280,
+        114979200
+      ],
+      "postBalances": [
+        484072883,
+        0,
+        1,
+        1141440,
+        1169280,
+        114979200
+      ],
+      "innerInstructions": [],
+      "preTokenBalances": [],
+      "postTokenBalances": [],
+      "logMessages": [
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program Stake11111111111111111111111111111111111111 invoke [1]",
+        "Program log: Instruction: Withdraw",
+        "Program Stake11111111111111111111111111111111111111 consumed 8514 of 12130 compute units",
+        "Program Stake11111111111111111111111111111111111111 success"
+      ],
+      "status": {
+        "Ok": null
+      },
+      "rewards": [],
+      "loadedAddresses": {
+        "readonly": [],
+        "writable": []
+      },
+      "returnData": {
+        "programId": "11111111111111111111111111111111",
+        "data": [
+          "",
+          ""
+        ]
+      },
+      "computeUnitsConsumed": 8814
+    },
+    "version": "legacy"
+  }
+}
