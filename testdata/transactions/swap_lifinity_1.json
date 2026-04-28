@@ -1,0 +1,100 @@
+{
+  "blockTime": 1752225827,
+  "category": "OtherDEX",
+  "description": "Lifinity swap transaction",
+  "expected": {
+    "trade": true
+  },
+  "explorerURL": "https://solscan.io/tx/3JwqTzSaBLMnATickMEzmrdB2wN7rT74JraRAgrNGW1SGADxZRuYcTuhdRBTPPBpirwfaCbmdnhsrkAzbwbmm8H5",
+  "raw": {
+    "slot": 352562221,
+    "blockTime": 1752225827,
+    "transaction": [
+      "AXOCbEGxw1cHo5cvHUW/U/zIGgq+sxeQGRyYg/muvMs1TdLBd5U3CflfdYR71z6ROPH6GdJ5spoE7k9AX46vqgCAAQAOFQjctBuiOvHMqbTAEYOfM9JY6JZvL9EYN9UdX0bp0E9gxSP1g/lu1P29it4WX43+VTPBD6Ahoio/MeVK3AIDFmE9bkcuZ6RuprS9C6ud/TXitMcvHW1Zwuq5XJQlc60i8fIvkxCn1EVUrfx+mB10B4Q+SPk1/tMCX+p7/JpD/Ik1L9p3EN7QVm+wCbiCUn2jVyJyazsZQYgqVRhf6h2a/pWEwvsYrtYZ9UZjJlPvBgKfAqhkvzgphnGBuyDfHXFcMAf8CQgmL4CqvVpr49A4XoBc90SoQAgPoxO2UVWbvFo7BTB61kVLvF4eTpIFklOhi7jIhoxYpjEuyGo55iJONzsG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqQMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAAflR3Glem8Uyp5ALVSu5F9zeKyjZcexaafsg/UYKymPBL2UnENgLDPyB3kO0Wo1JMobmXXPEhoqkM/+x9+LaKzQR51VvyMcBu7nTFbs5oFQf9sbLeo/SOUQKxzaJWvBOPDgNoX46QkFPkWBIcZvWnau3HcGqhHIL4qpUqjyt4eanM+ALUzMyE1/shtfc7SdgaFsW0yI7jI5ThyR01iMxAgAXQ6k8zc3ATpWPgk0jttvRZPZH8dkH5JHwkQahCobvrDQdRqBLKUK5HpW0EOGIqiJTH0t2Y6nGUuHv01p2DF2HK4JG4rMDoQTFs3+aKZ2iVocDNV3WrI/6ICjX+qUE0HQaE20ls+t/n1aHRjNObls08iNtkhMG8dWgYORGbav+2iu999+OmdKQ+0YFWIg4DBvpHh4uTIH4kleWe7bvaTKFPgJzyG23FlqvG6eSdPCgq1yxiDkrXob0AV1q5SQ4s4A2NJXAh3quku1fReJ+6/LL4bxopaUbweUFBod4AwiflEwcEABYIFRDUTX6PWps8LkBCDwAAAAAABwMAFggQlVceJTpLfI1AQg8AAAAAAAkABQLAXBUACQAJAxAnAAAAAAAACgcACBYXAQAAGPjGnpHhdYfIQEIPAAAAAAAAAAAAAAAAAAsHAAgXFgIAABgJQEIPAAAAAAAAAAAAAAAAAAAAAAAAAAAMBgAIFhcKCw4BAkBCDwAAAAAAMgABAggDAAAACQNAQg8AAAAAAAgDAAAACQOAhB4AAAAAAA0DAAMICQIBAAAAQEIPAA4DABYXCQFAQg8AAAAAAA8CAAQFA0BCDwAQAgAFCQBAQg8AAAAAABECABYFAkBCDwASAgAGCQFAQg8AAAAAABMCABYFCUBCDwAUAgAXCQRAQg8AAAAAAAcDABYIEHprjJ0eL0pbQEIPAAAAAAAHAgAVCD5PanuMnR4vAhmPH0w6RSJj1BOyzRfry8Gg5YhzZOYmGhKoF5LqFlo+AAEA8cVOtxSu5H+73D4CMxErp7KRRwKlmD9NaFctbp0kqosAAhwQ",
+      "base64"
+    ],
+    "meta": {
+      "err": "ProgramAccountNotFound",
+      "fee": 19000,
+      "preBalances": [
+        17014203,
+        75545920,
+        3999268520,
+        106643738,
+        12096367460,
+        1003601360,
+        3640180,
+        1141440,
+        3294324163,
+        1,
+        1141440,
+        2391741440,
+        2635141440,
+        1141440,
+        1141440,
+        1141440,
+        0,
+        1141440,
+        1141440,
+        1141440,
+        1141440,
+        1,
+        401870953620,
+        1066965937071
+      ],
+      "postBalances": [
+        16995203,
+        75545920,
+        3999268520,
+        106643738,
+        12096367460,
+        1003601360,
+        3640180,
+        1141440,
+        3294324163,
+        1,
+        1141440,
+        2391741440,
+        2635141440,
+        1141440,
+        1141440,
+        1141440,
+        0,
+        1141440,
+        1141440,
+        1141440,
+        1141440,
+        1,
+        401870953620,
+        1066965937071
+      ],
+      "innerInstructions": [],
+      "preTokenBalances": [],
+      "postTokenBalances": [],
+      "logMessages": [],
+      "status": {
+        "Err": "ProgramAccountNotFound"
+      },
+      "rewards": [],
+      "loadedAddresses": {
+        "readonly": [
+          "11111111111111111111111111111111",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "writable": []
+      },
+      "returnData": {
+        "programId": "11111111111111111111111111111111",
+        "data": [
+          "",
+          ""
+        ]
+      },
+      "computeUnitsConsumed": 0
+    },
+    "version": 0
+  },
+  "signature": "3JwqTzSaBLMnATickMEzmrdB2wN7rT74JraRAgrNGW1SGADxZRuYcTuhdRBTPPBpirwfaCbmdnhsrkAzbwbmm8H5",
+  "slot": 352562221
+}

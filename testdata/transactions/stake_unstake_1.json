@@ -1,0 +1,118 @@
+{
+  "description": "Stake Deactivate (unstake)",
+  "category": "Stake",
+  "signature": "27j8qLdDvASG7SY4cujsCQfnG9vQh8U2gZsCeP4qfz67vqPcUXZD9b5RxCVfZjqqmbnbafYouT4sMRX9VNTQG88u",
+  "slot": 416219746,
+  "blockTime": 1777379586,
+  "explorerURL": "https://solscan.io/tx/27j8qLdDvASG7SY4cujsCQfnG9vQh8U2gZsCeP4qfz67vqPcUXZD9b5RxCVfZjqqmbnbafYouT4sMRX9VNTQG88u",
+  "expected": {
+    "trade": false,
+    "liquidity": false,
+    "burn": false,
+    "stake": [
+      "Deactivate"
+    ],
+    "transfer": false
+  },
+  "raw": {
+    "slot": 416219746,
+    "blockTime": 1777379586,
+    "transaction": [
+      "ATfRUV2jd3p7UNZpjbUx86jcfngAS6vB5wfeoL1SCBsv3o2hTJFb4wyIP94eT4Q1pETzQ5QdL6jB64mIMk3sIg4BAAgNmgahUkeOmdUU3N6FGtu169QHA0YRAKvkpZA7/YgOHusV8DvjFY0jUUrTkfsgJxzHvdgoYrf2mRlpqkuwiN8XRTXiLVBEVHw0bewfTgmV77usZdJATeCMEVEQyd8x2sAmyhNu7CqITrCT1TTIjESff2fzsNYy1kp7I/plGfsIuH7d554UqMbzYrWfev6eE3PwhdRKfK7ZMsD8QjSnb09f9wah2BeRN1QqmDQ3vf4qerJVf1NcinhyK2ikncAAAAAABqfVFxjHdMkoVmOYaR1etoteuKObS21cc1VbIQAAAAAGp9UXGTWE0P7tm7NDHRMga+VEKBtXuFZsxTdf9AAAAArIvZ1/F6xDSrVJ42ClqEvOAehUv87iY38SPYTooSZvDZ/+c4mijVZoqWVfTcr1yf91S0ZnbJd2FDJitaL9aFkNuqDAbW7I4P1s5AtXbsU1THQJPImsXny71X0cBK3y5WJKTzU6wFBvvC45YOLicn7c7Ho+bSteboqV6HjKfkPIlRIIa0gTOa9aJYjUhTOCpgYQZGCk11A9s554w1DeZvTfXkIxsF3RIKMKd3utEOpLELoVzebKJokmCwORKwY7MgEJDAoMAgEEAwsHBgUICZwEvDWEl1gyNO4NAAAAjWmLr0WKJMPoiioZy40iBGbaB8RBwUEowtjzDo3mIiGNBu8ZCJtm4ulOKE8J11BVDJb5Y0T5GNvxeMEwY5PVea8qyAF6H/LXHhhNJO0/3YOZJWM+LUDRxYoJcHQe7it62YUZlO+SJQcxXY4CewM4spv92A48yNzY51ZPEhrO/mGn0ZKNCrdXOqdn3GcOLnxAnbfYDbC0Zmpjz/NDOsRKbnk0lL1TJai5WOBh92Q6XZXk7jNRN3nyGuPKGxcnipLvPMgdVqbNsx9S3R6EVj8eeWiL1/7XoQEBYJqmWpEwELBQ2XjredztHhhSwos5DWUGxTNdl+ZNmwMNNdvUXd4/p2br1tAMt0sud7G7ZRr8qOcrUJoJoGSPlGVlYHb0O9TS/cwXFiNhIxPnII+9lQ0etxUGEkRu1Rr3tIc1T8rBOVSEdf3XzR1HnQyp3iCWqykiqR3uDyc+OIfu7XF5U4yCVZeb0CMDP2vSuJoLmrOTg/VFTjbCaxawHnFKkk6DFbyL/UHwM0jQVmT8uGzAjtWpEArROQRLGBrbV/9ydKALghTtKfoeIALvAOJ5zJ3wx8vRGQP6OVX66X+l9kATwfg7cw0JSSeBTAXxmvceTNKfFXpFQDBhsrwPRX80H/k4FOfiS0HJVMOYzCKCVxcQzSt0hBTZ+rN09HHGAfEmXdp73U91XwMAAAAAAG0FAAAAAAAA",
+      "base64"
+    ],
+    "meta": {
+      "err": null,
+      "fee": 5000,
+      "preBalances": [
+        3752301746,
+        5380080,
+        3173760,
+        2645295,
+        3247982740,
+        1141440,
+        1169280,
+        114979200,
+        0,
+        1141440,
+        5178240,
+        17499978,
+        2672640
+      ],
+      "postBalances": [
+        3752296746,
+        5380080,
+        3173760,
+        2866340,
+        3247761695,
+        1141440,
+        1169280,
+        114979200,
+        0,
+        1141440,
+        5178240,
+        17499978,
+        2672640
+      ],
+      "innerInstructions": [
+        {
+          "index": 0,
+          "instructions": [
+            {
+              "programIdIndex": 5,
+              "accounts": [
+                4,
+                3,
+                6,
+                7,
+                11
+              ],
+              "data": "5Nvj7LLy2iu5tU8f",
+              "stackHeight": 2
+            },
+            {
+              "programIdIndex": 9,
+              "accounts": [
+                8
+              ],
+              "data": "3nwpZHrCmZ4uiAEqyNYkssdN8bUJNmysp75Kdg7ehr41bvCNFKTfXCDdHPdvm2VRhrgz3sQvFterBvfknCntoNKMn5pu9zqCHPWhknjtWQfMN3eca43yiLQkyqm3RufHw5os3BtnM5thtoxqEbtpDHYwzpWZLGLrrxuxj6Qaa8gSE44udUh1LygzDphxKRHBi5MR1vJ3VAQWuXdi2SyNN4aGLxy3eVtUcueW4gMRVxT2J89regzDEkNjh5rP",
+              "stackHeight": 2
+            }
+          ]
+        }
+      ],
+      "preTokenBalances": [],
+      "postTokenBalances": [],
+      "logMessages": [
+        "Program vBoNdEvzMrSai7is21XgVYik65mqtaKXuSdMBJ1xkW4 invoke [1]",
+        "Program log: Instruction: ClaimSettlementV2",
+        "Program Stake11111111111111111111111111111111111111 invoke [2]",
+        "Program log: Instruction: Withdraw",
+        "Program Stake11111111111111111111111111111111111111 consumed 8603 of 146897 compute units",
+        "Program Stake11111111111111111111111111111111111111 success",
+        "Program vBoNdEvzMrSai7is21XgVYik65mqtaKXuSdMBJ1xkW4 invoke [2]",
+        "Program vBoNdEvzMrSai7is21XgVYik65mqtaKXuSdMBJ1xkW4 consumed 3653 of 134963 compute units",
+        "Program vBoNdEvzMrSai7is21XgVYik65mqtaKXuSdMBJ1xkW4 success",
+        "Program vBoNdEvzMrSai7is21XgVYik65mqtaKXuSdMBJ1xkW4 consumed 70567 of 200000 compute units",
+        "Program vBoNdEvzMrSai7is21XgVYik65mqtaKXuSdMBJ1xkW4 success"
+      ],
+      "status": {
+        "Ok": null
+      },
+      "rewards": [],
+      "loadedAddresses": {
+        "readonly": [],
+        "writable": []
+      },
+      "returnData": {
+        "programId": "11111111111111111111111111111111",
+        "data": [
+          "",
+          ""
+        ]
+      },
+      "computeUnitsConsumed": 70567
+    },
+    "version": "legacy"
+  }
+}

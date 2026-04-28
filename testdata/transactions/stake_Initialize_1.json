@@ -1,0 +1,85 @@
+{
+  "blockTime": 1777400184,
+  "category": "Stake",
+  "description": "Stake Initialize transaction",
+  "expected": {
+    "stake": [
+      "Initialize"
+    ]
+  },
+  "explorerURL": "https://solscan.io/tx/3jA2RwS4JDA6BPHSEFzD6VLDVbme9XDibBNi6SsCTmtacCwxX7Jaokdmh4ztuHJ1wSPU1PA8sgoJhukjvV8UtrMK",
+  "raw": {
+    "slot": 416271684,
+    "blockTime": 1777400184,
+    "transaction": [
+      "AYhjK5bP+0pxfcMBdsFvinWOSAr8zOxAKLOiAR+vPeCrJEvSIt5n7JQFT0gqkcMxqE4kSmhUoMfAl2sv6z7RmgYBAAgK4VKZLFoihf5cBy737vJY2nvEkLsPFmIM3pcBvltEeXJK+9HsqyaJmUpHtew1HU/7R7oiU1gxcp4vgaPZmhcHNwMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGodgXkTdUKpg0N73+KnqyVX9TXIp4citopJ3AAAAAAAan1RcZLFxRIYzJTD1K8X9Y2u4Im6H9ROPb2YoAAAAABnxbwDclrmRHiqqdvXTsME+8kwLe4eexosjxowd6oGEGp9UXGMd0yShWY5hpHV62i164o5tLbVxzVVshAAAAAAan1RcZNYTQ/u2bs0MdEyBr5UQoG1e4VmzFN1/0AAAABqHYF6UCBQtoB5Hmzm24jh5bcVD2H8Z5Ck600QAAAADJte4YiwrwexnnFLRnaDalEV9ep1kCjaLkdxra3AG1vwUCAAkDIKEHAAAAAAACAAUCOo4AAAMCAAFjAwAAAOFSmSxaIoX+XAcu9+7yWNp7xJC7DxZiDN6XAb5bRHlyBwAAAAAAAABzdGFrZTowgDPzsgAAAADIAAAAAAAAAAah2BeRN1QqmDQ3vf4qerJVf1NcinhyK2ikncAAAAAABAIBBXQAAAAA4VKZLFoihf5cBy737vJY2nvEkLsPFmIM3pcBvltEeXLhUpksWiKF/lwHLvfu8ljae8SQuw8WYgzelwG+W0R5cgAAAAAAAAAAAAAAAAAAAADhUpksWiKF/lwHLvfu8ljae8SQuw8WYgzelwG+W0R5cgQGAQYHCAkABAIAAAA=",
+      "base64"
+    ],
+    "meta": {
+      "err": null,
+      "fee": 23205,
+      "preBalances": [
+        3020009903,
+        0,
+        1,
+        1,
+        1141440,
+        1009200,
+        291774915,
+        1169280,
+        114979200,
+        960480
+      ],
+      "postBalances": [
+        17703818,
+        3002282880,
+        1,
+        1,
+        1141440,
+        1009200,
+        291774915,
+        1169280,
+        114979200,
+        960480
+      ],
+      "innerInstructions": [],
+      "preTokenBalances": [],
+      "postTokenBalances": [],
+      "logMessages": [
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+        "Program ComputeBudget111111111111111111111111111111 success",
+        "Program 11111111111111111111111111111111 invoke [1]",
+        "Program 11111111111111111111111111111111 success",
+        "Program Stake11111111111111111111111111111111111111 invoke [1]",
+        "Program log: Instruction: Initialize",
+        "Program Stake11111111111111111111111111111111111111 consumed 7537 of 35960 compute units",
+        "Program Stake11111111111111111111111111111111111111 success",
+        "Program Stake11111111111111111111111111111111111111 invoke [1]",
+        "Program log: Instruction: DelegateStake",
+        "Program Stake11111111111111111111111111111111111111 consumed 16229 of 28423 compute units",
+        "Program Stake11111111111111111111111111111111111111 success"
+      ],
+      "status": {
+        "Ok": null
+      },
+      "rewards": [],
+      "loadedAddresses": {
+        "readonly": [],
+        "writable": []
+      },
+      "returnData": {
+        "programId": "11111111111111111111111111111111",
+        "data": [
+          "",
+          ""
+        ]
+      },
+      "computeUnitsConsumed": 24216
+    },
+    "version": "legacy"
+  },
+  "signature": "3jA2RwS4JDA6BPHSEFzD6VLDVbme9XDibBNi6SsCTmtacCwxX7Jaokdmh4ztuHJ1wSPU1PA8sgoJhukjvV8UtrMK",
+  "slot": 416271684
+}

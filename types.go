@@ -34,6 +34,8 @@ const (
 	ProviderCxcx          ProviderName = "cxcx"
 	ProviderDefaultPerson ProviderName = "defaultperson"
 	ProviderStake         ProviderName = "stake"
+
+	ProviderSwap ProviderName = "swap"
 )
 
 type TokenAmount struct {

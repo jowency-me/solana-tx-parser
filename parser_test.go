@@ -166,6 +166,38 @@ func TestParseAllFixtures(t *testing.T) {
 	}
 }
 
+// TestSelfTransfers verifies the SelfTransfers helper returns only self-transfers.
+func TestSelfTransfers(t *testing.T) {
+	_, res := mustLoadFixture(t, "transfer_self_1")
+	self := res.SelfTransfers()
+	if len(self) == 0 {
+		t.Fatal("expected at least one self-transfer in transfer_self_1 fixture")
+	}
+	for _, tf := range self {
+		if !tf.IsSelf {
+			t.Errorf("SelfTransfers returned non-self transfer: from=%s to=%s", tf.From, tf.To)
+		}
+	}
+}
+
+// TestEventCounts verifies the EventCounts helper returns correct totals.
+func TestEventCounts(t *testing.T) {
+	_, res := mustLoadFixture(t, "transfer_self_1")
+	counts := res.EventCounts()
+	if counts[solanatxparser.EventTransfer] == 0 {
+		t.Error("expected at least one transfer event")
+	}
+	if counts[solanatxparser.EventSelfTransfer] == 0 {
+		t.Error("expected at least one self-transfer event")
+	}
+
+	// Verify consistency: self-transfer count should equal SelfTransfers() length
+	if counts[solanatxparser.EventSelfTransfer] != len(res.SelfTransfers()) {
+		t.Errorf("EventCounts self=%d but SelfTransfers()=%d",
+			counts[solanatxparser.EventSelfTransfer], len(res.SelfTransfers()))
+	}
+}
+
 // TestParseDedupe verifies deduplication for the dual-parser fixture.
 func TestParseDedupe(t *testing.T) {
 	_, res := mustLoadFixture(t, "dual_parser_trade")

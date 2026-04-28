@@ -41,6 +41,8 @@ func NewParser(client *rpc.Client, opts Options) *Parser {
 	p.Register(newCxcxProvider())
 	p.Register(newDefaultPersonProvider())
 	p.Register(newStakeProvider())
+	p.Register(newSwapProvider())
+
 	return p
 }
 
@@ -138,6 +140,9 @@ func (p *Parser) parseDecoded(signature string, rawTx *rpc.GetTransactionResult,
 
 	for _, provider := range p.providers {
 		status := provider.Parse(pctx, res)
+		if status == nil {
+			status = &ProviderStatus{Ran: true, Error: "returned nil status"}
+		}
 		res.Providers[provider.Name()] = status
 	}
 

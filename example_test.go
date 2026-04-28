@@ -8,7 +8,7 @@ import (
 )
 
 func TestExample(t *testing.T) {
-	f, raw, tx, err := loadFixture("testdata/transactions/pumpfun_create.json")
+	f, raw, tx, err := loadFixture("testdata/transactions/create_token_pumpfun_1.json")
 	if err != nil {
 		fmt.Println("error:", err)
 		return

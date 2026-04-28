@@ -11,6 +11,20 @@ var programIDToAMM = map[string]string{
 	"Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB": "MeteoraDamm",
 	"DEXYosS6oEGvk8uCDayvwEZz4qEyDJRf9nFgYCaqPMTm": "1Dex",
 	"fUSioN9YKKSa3CUC2YUc4tPkHJ5Y6XW1yz8y6F7qWz9":  "FusionAMM",
+
+	// Locally supported protocols
+	"ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA": "AlphaQ",
+	"FLUXubRmkEi2q6K3Y9kBPg9248ggaZVsoSFhtJHSrm1X": "FluxBeam",
+	"REALQqNEomY6cQGZJUGwywTBD2UmDT32rZcNnfxQ5N2":  "Byreal",
+	"T1TANpTeScyeqVzzgNViGDNrkQ6qHz9KrSBS4aNXvGT":  "Titan",
+	"SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF":  "SolFiV2",
+	"MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms":  "Manifest",
+	"FrLmhMwyYQJVivt2EsVZwEEVspxoVhYj22Cxxst4hWVf": "FrLmh",
+	"TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH":  "TesseraV",
+	"ExA6GYhHAeRNMWVNLrDir1SKPJZcZA2oaPq6uriSmxfJ": "ExA6GYh",
+	"proVF4pMXVaYqmy4NjniPh4pqKNfMmsihgd4wdkCX3u":  "OKXLabs2",
+	"61DFfeTKM7trxYcPQCM78bJ794ddZprZpAwAnLiwTpYH": "JupiterOrderEngine",
+	"NinafKYvKDCH26v6uEpfDjyuDjjpbdfhiPjrJV6FTFs":  "Nina",
 }
 
 // ResolveAMM looks up a program ID when the AMM name is empty or Unknown.
